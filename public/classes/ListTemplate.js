@@ -8,14 +8,11 @@ export class ListTemplate {
         const li = document.createElement('li');
         const h4 = document.createElement('h4');
         h4.innerText = heading;
-        // console.log("h4");
         // Set the color based on the heading
         if (this.type.value == 'invoice') {
-            console.log('Invoice'); // Debugging: Log if heading is 'Invoice'
             h4.style.color = '#036379';
         }
         else {
-            console.log('Payment'); // Debugging: Log if heading is not 'Invoice'
             h4.style.color = '#ff5722';
         }
         li.append(h4);

@@ -7,7 +7,7 @@
   }
   
 
-  /* inport font
+  /* import font
   @font-face{
     font-family: "name";
     src: ulr('assets/fonts/.... .ttf') */
@@ -75,7 +75,6 @@ h1 {
 
 h4 {
   font-size: 1.2em;
-  /* color: var(--h4-color); */
 }
 
 .item-list{
@@ -91,7 +90,6 @@ h4 {
 .item-list li{
   grid-column: 1/12;
   margin: 8px 0;
-  /* padding: 8px 0; */
 }
 
 .item-list li:hover{
