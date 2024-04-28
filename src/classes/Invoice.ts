@@ -9,7 +9,6 @@ export class Invoice implements HasFormatter {
         public amount: number,
     ) {}
     
-
     format() {
         return `${this.client} owes £${this.amount} for ${this.details}`;
     }
